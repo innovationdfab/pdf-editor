@@ -1,0 +1,96 @@
+﻿"use client";
+
+import {
+  forwardRef,
+  memo,
+  useEffect,
+  useImperativeHandle,
+  useRef,
+} from "react";
+
+type NutrientViewerModule =
+  typeof import("@nutrient-sdk/viewer");
+
+type NutrientViewerType =
+  NutrientViewerModule["default"];
+
+type NutrientInstance =
+  Awaited<
+    ReturnType<NutrientViewerType["load"]>
+  >;
+
+/* ==================================================
+   TYPES
+================================================== */
+
+export type EngineeringUnit =
+  | "inch"
+  | "mm"
+  | "cm";
+
+export type AnalysisScope =
+  | "current"
+  | "all";
+
+export type DimensionConfidence =
+  | "high"
+  | "review";
+
+export type PdfRectData = {
+  left: number;
+  top: number;
+  width: number;
+  height: number;
+};
+
+export type DimensionCandidate = {
+  id: string;
+
+  pageIndex: number;
+  pageNumber: number;
+
+  original: string;
+  converted: string;
+
+  lineText: string;
+
+  confidence: DimensionConfidence;
+
+  lineBox: PdfRectData;
+};
+
+export type AnalyzeDimensionsOptions = {
+  sourceUnit: EngineeringUnit;
+  targetUnit: EngineeringUnit;
+  scope: AnalysisScope;
+};
+
+export type AnalyzeDimensionsResult = {
+  dimensions: DimensionCandidate[];
+  pagesAnalyzed: number;
+  totalPages: number;
+};
+
+export type PdfActionResult = {
+  warning?: string;
+};
+
+export type NutrientEditorHandle = {
+  startContentEditing: () => void;
+
+  startPanMode: () => Promise<void>;
+
+  saveToBackend:
+    () => Promise<PdfActionResult>;
+
+  downloadPdf: (
+    filename: string
+  ) => Promise<PdfActionResult>;
+
+  analyzeDimensions: (
+    options: AnalyzeDimensionsOptions
+  ) => Promise<AnalyzeDimensionsResult>;
+
+  locateDimension: (
+    dimension: DimensionCandidate
+  ) => Promise<void>};

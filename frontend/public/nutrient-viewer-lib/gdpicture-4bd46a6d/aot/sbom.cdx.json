@@ -1,0 +1,970 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ad73c7cb-e352-4188-957b-730b80b483ca",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-07T13:40:41Z",
+    "tools": [
+      {
+        "vendor": "Nutrient",
+        "name": "gdpicture-sbom-aggregator"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "gdpicture-wasm-aot-full@14.4.10",
+      "version": "14.4.10"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "emscripten",
+      "version": "3.1.56",
+      "purl": "pkg:generic/emscripten@3.1.56",
+      "licenses": [
+        {
+          "expression": "MIT AND NCSA"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://emscripten.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "BouncyCastle.Cryptography",
+      "version": "2.5.0",
+      "purl": "pkg:nuget/BouncyCastle.Cryptography@2.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.bouncycastle.org/stable/nuget/csharp/website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "DocumentFormat.OpenXml",
+      "version": "3.2.0",
+      "purl": "pkg:nuget/DocumentFormat.OpenXml@3.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/dotnet/Open-XML-SDK"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "DocumentFormat.OpenXml.Framework",
+      "version": "3.2.0",
+      "purl": "pkg:nuget/DocumentFormat.OpenXml.Framework@3.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/dotnet/Open-XML-SDK"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Google.Protobuf",
+      "version": "3.33.2",
+      "purl": "pkg:nuget/Google.Protobuf@3.33.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/protocolbuffers/protobuf"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "10.0.5",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@10.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dot.net/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "10.0.5",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@10.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dot.net/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.NET.ILLink.Tasks",
+      "version": "10.0.12",
+      "purl": "pkg:nuget/Microsoft.NET.ILLink.Tasks@10.0.12",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dot.net/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+      "version": "10.0.12",
+      "purl": "pkg:nuget/Microsoft.NETCore.App.Runtime.Mono.browser-wasm@10.0.12",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dotnet.microsoft.com"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "OpenMcdf",
+      "version": "3.1.4",
+      "purl": "pkg:nuget/OpenMcdf@3.1.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://openmcdf.github.io/openmcdf/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Pkcs11Interop",
+      "version": "5.2.0",
+      "purl": "pkg:nuget/Pkcs11Interop@5.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "See LICENSE file"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.pkcs11interop.net/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "protobuf-net",
+      "version": "3.2.56",
+      "purl": "pkg:nuget/protobuf-net@3.2.56",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/protobuf-net/protobuf-net"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "protobuf-net.Core",
+      "version": "3.2.56",
+      "purl": "pkg:nuget/protobuf-net.Core@3.2.56",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/protobuf-net/protobuf-net"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "RtfPipe",
+      "version": "2.0.7677.4303",
+      "purl": "pkg:nuget/RtfPipe@2.0.7677.4303",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/erdomke/RtfPipe"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "System.IO.Packaging",
+      "version": "10.0.5",
+      "purl": "pkg:nuget/System.IO.Packaging@10.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dot.net/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "System.Security.Cryptography.Pkcs",
+      "version": "10.0.5",
+      "purl": "pkg:nuget/System.Security.Cryptography.Pkcs@10.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dot.net/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "System.Windows.Extensions",
+      "version": "10.0.5",
+      "purl": "pkg:nuget/System.Windows.Extensions@10.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dot.net/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "abseil",
+      "version": "20260107.1#3",
+      "purl": "pkg:vcpkg/abseil@20260107.1%233",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f5012885d6b6844a9cf5ed92ad5468b8757db33dfe1364bfb232fff928e06c550c7eb4557f45186a8ac4d18b178df9be267681abab4a6de40823b574afbe9960"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/abseil/abseil-cpp"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/abseil/abseil-cpp@20260107.1"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "botan",
+      "version": "3.12.0",
+      "purl": "pkg:vcpkg/botan@3.12.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "33a47e5733aedc29704652bf16704a2cd080cdcebd01c95879b5db3af3186debbef711c53ef131a9cb7defe3dd8ffae49d6efe7e75aef9107473b92dc6b3f101"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://botan.randombit.net"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/randombit/botan@3.12.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "brotli",
+      "version": "1.2.0",
+      "purl": "pkg:vcpkg/brotli@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f94542afd2ecd96cc41fd21a805a3da314281ae558c10650f3e6d9ca732b8425bba8fde312823f0a564c7de3993bdaab5b43378edab65ebb798cefb6fd702256"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/google/brotli"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/google/brotli@v1.2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "expat",
+      "version": "2.8.1",
+      "purl": "pkg:vcpkg/expat@2.8.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "eb1db97184b5812d7c15afcd2219478295316c21d8a0566e002cc6f5e4ca576a8ed403a290e5b84f7b152543f38f81a26bb69fb4e5b0809d0d0ad310e47d4bbc"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/libexpat/libexpat"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "giflib",
+      "version": "5.2.2",
+      "purl": "pkg:vcpkg/giflib@5.2.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0865ab2b1904fa14640c655fdb14bb54244ad18a66e358565c00287875d00912343f9be8bfac7658cc0146200d626f7ec9160d7a339f20ba3be6b9941d73975f"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://sourceforge.net/projects/giflib/"
+        },
+        {
+          "type": "distribution",
+          "url": "https://sourceforge.net/projects/giflib/files//giflib-5.2.2.tar.gz"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "highway",
+      "version": "1.4.0",
+      "purl": "pkg:vcpkg/highway@1.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "819422857d6a74e3a936c402698e078db5b7b88fb43767e62429ec7bd954fe93b017e75029a4df4a1a97ef3a2486107eef5247da751eb487640dea409f3f2fa2"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/google/highway"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/google/highway@1.4.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "imath",
+      "version": "3.2.2",
+      "purl": "pkg:vcpkg/imath@3.2.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "492a624e4c0b59685d1ea58a3c2c63ddb4ba5ab9177c7d2a1b7e80be95d38ce02c74fafd2fe0982f7d21e5e75c938cc24a33a12d827dec32727cb8dcd5066450"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/AcademySoftwareFoundation/Imath"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/AcademySoftwareFoundation/Imath@v3.2.2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "lcms",
+      "version": "2.19.1",
+      "purl": "pkg:vcpkg/lcms@2.19.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1b2781ed8898e65f15be17cf0130a1500ec0bf5ca5159f871dff5692e387747be9526feef0bc7c370200656fc0aabe3036746041285a3978e90adec200d685f2"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/mm2/Little-CMS"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/mm2/Little-CMS@lcms2.19.1"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "leptonica",
+      "version": "1.87.0",
+      "purl": "pkg:vcpkg/leptonica@1.87.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-vcpkg-null"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2a1953dd0c962a05dac9bb30eac311896f414c658d976008b0c2d1b3b85ec25c5fd811be3f98a37f2131ded134799ea609a667fb1eaacf42d1aca9cc5cf1bd92"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/DanBloomberg/leptonica"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/DanBloomberg/leptonica@1.87.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libdeflate",
+      "version": "1.25",
+      "purl": "pkg:vcpkg/libdeflate@1.25",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fa02fa0a6d241d3f71cf4238a3ac58968cbea0b66613c1647d6eea575379d60e93f4647f8b3921e8c31322e20521aa9953213d5465f7d10a27c57bdd7186d318"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/ebiggers/libdeflate"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/ebiggers/libdeflate@v1.25"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libjpeg-turbo",
+      "version": "3.1.3",
+      "purl": "pkg:vcpkg/libjpeg-turbo@3.1.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d95bf0689fb2862ad5ea9e902b73724098d911d9c312aa69157bec9de77f32e4d5ac7dfa105d844110cc66dbdb0336056ba7f96781fcbc848b72fd0661604d50"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/libjpeg-turbo/libjpeg-turbo"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/libjpeg-turbo/libjpeg-turbo@3.1.3"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libjxl",
+      "version": "0.11.2",
+      "purl": "pkg:vcpkg/libjxl@0.11.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a7e1f7d060b358f4382e84367d66aa2850aef3b4524a0fdfe3f22dd258fb9e35dda7540f859d8bf4c32f31c61a7a03db677f4490a9f472cd25869a9d00797336"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/libjxl/libjxl"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/libjxl/libjxl@v0.11.2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "liblzma",
+      "version": "5.8.3",
+      "purl": "pkg:vcpkg/liblzma@5.8.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-vcpkg-null"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8fb5e6a13397d259d8ff7484f9b63f8a6752ff1c63e1a4601170ad8175aadefb5126a1cae7f73370bfc6c2a0b4e1c0bad57a58fc5b781d3f7d45e5a483c091cc"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://tukaani.org/xz/"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/tukaani-project/xz@v5.8.3"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libpng",
+      "version": "1.6.58",
+      "purl": "pkg:vcpkg/libpng@1.6.58",
+      "licenses": [
+        {
+          "license": {
+            "id": "libpng-2.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "65f54d805e1f7c46a5fc335b984e4cbd4f934e0f02fbf6673c13800b49a4c11fbeb4098eebfb33079527a56c3d933e97631f91ab68dbb31442982784f9241ace"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/pnggroup/libpng"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/pnggroup/libpng@v1.6.58"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libwebp",
+      "version": "1.6.0#2",
+      "purl": "pkg:vcpkg/libwebp@1.6.0%232",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "298e0ad4c09392213baf5abb69d330c6203b618800073fe2df91d01d35034197c5d3e29a74573b06971473c52c74514f0e6e0f6c8162f923e2dd15cb1a692aef"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/webmproject/libwebp"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/webmproject/libwebp@v1.6.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "openexr",
+      "version": "3.4.12",
+      "purl": "pkg:vcpkg/openexr@3.4.12",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cbf72c5d1a887a19f24a8e1586b6b7baffa9137d8d6900061a676ecccecd95c729c84f17369c531725921e8177fedc9ef818028acddc99f1bc5b34a2770c538a"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.openexr.com/"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/AcademySoftwareFoundation/openexr@v3.4.12"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "openjpeg",
+      "version": "2.5.4",
+      "purl": "pkg:vcpkg/openjpeg@2.5.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "702a10e20caaf8209684ded7c9fcf32f5ba6a972cf2d9fcf2611cdc6a446d2c3bb60324205758e6b6f92278c8cf4ef0fbae511e6ffb45ed6e8df514db0c6ab25"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/uclouvain/openjpeg"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/uclouvain/openjpeg@v2.5.4"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "openjph",
+      "version": "0.30.1",
+      "purl": "pkg:vcpkg/openjph@0.30.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3c572a21eb57861ef7621d020aea08b4e50ee2feb432f26ccada2978a89e2c10813025e2f1a219474bdd56b2ca846760bc6b0c0c538f5fc5d8bf79425bafe542"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/aous72/OpenJPH"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/aous72/OpenJPH@0.30.1"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "skia",
+      "version": "148#3",
+      "purl": "pkg:vcpkg/skia@148%233",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3a99225a1ab8a8c9c3418952428b739be0d1be4fcbdcc6aa196a05fd1c6d03977e93f3540fc8f575e23366cd6d3d4712edc7998cb14cf4147daa83908d170768"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://skia.org"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/google/skia@46f2e16555cac1211f4087cf24728fd741ac6495"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "tiff",
+      "version": "4.7.1",
+      "purl": "pkg:vcpkg/tiff@4.7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "libtiff"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "dcdabe2598db33a973d06f0009dd528aa1f38813bd6015e2595097b838a42240f9ccbe7524b5235ea2f4207a10d5d706339c7a6f4772b531e00a20281a00f67b"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://gitlab.com/libtiff/libtiff"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://gitlab.com/libtiff/libtiff@v4.7.1"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "zlib",
+      "version": "1.3.2#1",
+      "purl": "pkg:vcpkg/zlib@1.3.2%231",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "16fea4df307a68cf0035858abe2fd550250618a97590e202037acd18a666f57afc10f8836cbbd472d54a0e76539d0e558cb26f059d53de52ff90634bbf4f47d4"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.zlib.net/"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/madler/zlib@v1.3.2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "zlib-ng",
+      "version": "2.3.3",
+      "purl": "pkg:vcpkg/zlib-ng@2.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e2057c764f1d5aaee738edee7e977182c5b097e3c95489dcd8de813f237d92a05daaa86d68d44b331d9fec5d1802586a8f6cfb658ba849874aaa14e72a8107f5"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/zlib-ng/zlib-ng"
+        },
+        {
+          "type": "distribution",
+          "url": "git\u002Bhttps://github.com/zlib-ng/zlib-ng@2.3.3"
+        }
+      ]
+    }
+  ]
+}
